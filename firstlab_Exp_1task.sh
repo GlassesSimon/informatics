@@ -1,1 +1,1 @@
-grep -c '\b\w*Friday\w*\b' crusoe.txt
+grep -ioc '\b\w*Friday\w*\b' crusoe.txt
