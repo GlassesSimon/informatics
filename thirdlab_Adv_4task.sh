@@ -12,7 +12,12 @@ case $ARITHMETIC_OP in
                 let "p = $1 * $2"
         ;;
         div)
+                if [[$2 !=0]]
+                then
                 let "p = $1 / $2"
+                else 
+                printf 'bad input'
+                fi 
         ;;
 esac
 else
@@ -27,7 +32,12 @@ case $3 in
                 let "p = $1 * $2"
         ;;
         div)
+                if [[$2 !=0]]
+                then
                 let "p = $1 / $2"
+                else 
+                printf 'bad input'
+                fi 
         ;;
 esac
 fi
