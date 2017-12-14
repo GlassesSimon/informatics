@@ -1,1 +1,1 @@
-find / -name '*.txt'
+find / -type f -name "*.txt"
