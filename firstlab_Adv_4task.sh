@@ -1,1 +1,1 @@
-ls > files.txt
+ls -a > files.txt
