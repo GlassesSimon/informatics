@@ -1,1 +1,1 @@
-find /tmp -name "*.txt"
+find ./tmp -name "*.txt"
