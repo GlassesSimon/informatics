@@ -1,7 +1,5 @@
 #!/bin/bash
-i=1
-while (( $i <= $1))
+for ((i=1; i<=$1; i++))
 do
 printf 'Hello %d\n' $i
-let "i++"
 done
