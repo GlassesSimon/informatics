@@ -1,2 +1,2 @@
-mkdir shared.txt
+touch shared.txt
 ls -la
